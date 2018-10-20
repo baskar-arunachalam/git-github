@@ -1,0 +1,17 @@
+git -- version
+git config --global user.name "Baskar,Arunachalam"
+git config --global user.email "baskar.arunachalam@gmail.com"
+git config --global list
+
+git init  - to initialize
+ls -la - to view hidden files
+git status
+git add . -  to add files
+git commit -m  "My first commit"
+
+git log
+git log --author="Baskar,Arunachalam"
+git config --global core.editor "\"C:\Program Files (x86)\Notepad++\notepad++.exe\""
+git diff
+git diff --staged
+git -rm $filename
