@@ -22,3 +22,13 @@ git remote add origin ""
 git pull origin master
 git push origin master
 baskar-arunachalam
+
+-------  Git Branches -----
+Git branch $branch_name
+Git checkout
+
+------
+git merge develop
+--
+git reset HEAD $FILE_NAME  - To revert back
+git reset HEAD~ - To revert last commit
