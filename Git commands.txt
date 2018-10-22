@@ -32,3 +32,8 @@ git merge develop
 --
 git reset HEAD $FILE_NAME  - To revert back
 git reset HEAD~ - To revert last commit
+
+----- git fork ----------
+open github terminal and fork the project
+the project is added to your repository
+
