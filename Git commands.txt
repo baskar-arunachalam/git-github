@@ -47,7 +47,8 @@ git log -- Filename -->
 git config --global  alias.history "log --all --oneline --graph --decorate"
 subl ~/.gitconfig
 
-
+------
+.gitignore -  Add the files to be ignored
 
 
 
