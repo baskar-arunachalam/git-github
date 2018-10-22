@@ -32,3 +32,31 @@ git merge develop
 --
 git reset HEAD $FILE_NAME  - To revert back
 git reset HEAD~ - To revert last commit
+---------
+git mv filename1 filename2 
+
+--
+git log
+git log --oneline --graph --decorate
+git log --since="2 days ago"
+git show commitId ->   displays complete details of commit
+git log -- Filename -->
+
+----------  git alias ----------
+
+git config --global  alias.history "log --all --oneline --graph --decorate"
+subl ~/.gitconfig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
