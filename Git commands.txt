@@ -32,6 +32,7 @@ git merge develop
 --
 git reset HEAD $FILE_NAME  - To revert back
 git reset HEAD~ - To revert last commit
+<<<<<<< HEAD
 ---------
 git mv filename1 filename2 
 
@@ -50,14 +51,12 @@ subl ~/.gitconfig
 ------
 .gitignore -  Add the files to be ignored
 
+----- git fork ----------
+open github terminal and fork the project
+the project is added to your repository
 
+--------------
+git checkout -- $filename ->  To remove changes made in a file before adding into repository
 
-
-
-
-
-
-
-
-
+git rm -rf  $foldername -> To delete directories recursively
 
