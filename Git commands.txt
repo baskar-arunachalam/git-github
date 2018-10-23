@@ -59,4 +59,6 @@ the project is added to your repository
 git checkout -- $filename ->  To remove changes made in a file before adding into repository
 
 git rm -rf  $foldername -> To delete directories recursively
-
+-----------
+git diff - finds differences between working directory and staging area
+git diff HEAD --> compares working directory with repository
