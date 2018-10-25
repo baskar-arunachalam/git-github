@@ -32,6 +32,41 @@ git merge develop
 --
 git reset HEAD $FILE_NAME  - To revert back
 git reset HEAD~ - To revert last commit
+<<<<<<< HEAD
+---------
+git mv filename1 filename2 
+
+--
+git log
+git log --oneline --graph --decorate
+git log --since="2 days ago"
+git show commitId ->   displays complete details of commit
+git log -- Filename -->
+
+----------  git alias ----------
+
+git config --global  alias.history "log --all --oneline --graph --decorate"
+subl ~/.gitconfig
+
+------
+.gitignore -  Add the files to be ignored
+--------
+$ git commit -m "remove added"
+[master ce2ed87] remove added
+ Committer: Baskar Arunachalam <baskar.arunachalam@sonata-software.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+
 
 ----- git fork ----------
 open github terminal and fork the project
@@ -41,3 +76,24 @@ the project is added to your repository
 git checkout -- $filename ->  To remove changes made in a file before adding into repository
 
 git rm -rf  $foldername -> To delete directories recursively
+-----------
+git diff - finds differences between working directory and staging area
+git diff HEAD --> compares working directory with repository
+
+--------------  Compare Staged version  Vs GitHub -------------
+git diff --staged HEAD
+git diff $commitid1 $commitid2
+git diff HEAD HEAD^   - Difference between  last 2 commits
+
+------------------------ Git branch ------------
+
+Git branch 
+Git branch -a 
+git branch $branchName  - to create new branch
+git branch -m oldbranchname  $newBranchName   - Change branchName
+git branch -d branchName - to delete a branch
+
+--------------- 
+
+
+
