@@ -85,4 +85,15 @@ git diff --staged HEAD
 git diff $commitid1 $commitid2
 git diff HEAD HEAD^   - Difference between  last 2 commits
 
+------------------------ Git branch ------------
+
+Git branch 
+Git branch -a 
+git branch $branchName  - to create new branch
+git branch -m oldbranchname  $newBranchName   - Change branchName
+git branch -d branchName - to delete a branch
+
+--------------- 
+
+
 
