@@ -93,7 +93,21 @@ git branch $branchName  - to create new branch
 git branch -m oldbranchname  $newBranchName   - Change branchName
 git branch -d branchName - to delete a branch
 
---------------- 
+--------------- git rebase --------------
+git checkout featurebranch
+git rebase master
+Merge did an extra commit whereas rebase won't do any extra commit
+if git rebase gives a merge conflict, then first use abort command
+(i.e) git rebase --abort
+2. git diff branchName master
+3. resolve the conflict
+4. git rebase --continue
+5. git rebase --skip
+------------------ git rebase  remote ------------------------
+
+git fetch - Get all the changes done at the remote repository
+git pull --rebase origin master
+
 
 
 
