@@ -131,6 +131,9 @@ git stash apply stash@{0}
 -----------------
 git stash branch stashBranch
 
+-----------------
+git tag tagged
+
 
 
 
