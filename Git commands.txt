@@ -133,6 +133,10 @@ git stash branch stashBranch
 
 -----------------
 git tag tagged
+git tag  --list
+git tag --delete
+------ annoted tag -------
+git tag -a "annnoted"
 
 
 
