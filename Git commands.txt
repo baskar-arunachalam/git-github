@@ -110,6 +110,12 @@ git pull --rebase origin master
 ----------------------
 is git stash does merging/
 
+--------- git stash --------------
+git stash
+git stash list
+git stash apply
+git stash drop
+--------------------
 
 
 
