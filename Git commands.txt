@@ -107,6 +107,8 @@ if git rebase gives a merge conflict, then first use abort command
 
 git fetch - Get all the changes done at the remote repository
 git pull --rebase origin master
+----------------------
+is git stash does merging/
 
 
 
