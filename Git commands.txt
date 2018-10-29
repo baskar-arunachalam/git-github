@@ -138,14 +138,14 @@ git tag --delete
 ------ annoted tag -------
 git tag -a "annnoted"
 
+git diff tag1 tag2  -->   shows differences between 2 tags
+git tag -a tagName $commitId
+git tag -a tagname -f $newCommitid -  This  command is used to update a tag
+------------------
 
+git commit -amend -m "New message"
+GIT reset --soft commitID   - This command will reset the changes after the given commitid1
+git reset --hard comitid
+git reflog - brings files from recycle bin
 
-
-
-
-
-
-
-
-
->>>>>>> Stashed changes
+git clean -df
