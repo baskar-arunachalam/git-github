@@ -116,6 +116,27 @@ git stash list
 git stash apply
 git stash drop
 --------------------
+git ls-files  files  tracked by git
+
+git stash -u ->  stash  untracked file
+git stash -a  ->  stash all files
+git stash pop ->  apply all the stashed files
+
+---------------- stash multiple files ----------
+git statsh save "Message "
+ Latest changes in zero index
+
+git stash show stash@(0)
+git stash apply stash@{0} 
 
 
 
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
