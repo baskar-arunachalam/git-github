@@ -1,0 +1,29 @@
+java -jar jenkin.war httpPort=9090
+
+Jenkin architecture  
+Master, slave, node and executer
+
+* *	*	*	*
+1st star -  minute 0-59
+2nd star - hour (1 -24)
+3RD star = day of month (1-31)
+4th star -month (1-12)
+5th star - day of the week  
+
+ssh-keygen -t rsa -b 4096 -C "baskar.arunachalam@gmail.com"
+
+Checking for existing SSH keys:
+https://help.github.com/articles/checking-for-existing-ssh-keys/
+
+Generating a new SSH key and adding it to the ssh-agent:
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+Adding a new SSH key to your GitHub account:
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+clip < ~/.ssh/id_rsa.pub
+# Copies the contents of the id_rsa.pub file to your clipboard
+
+Jenkins GitHub Plugin:
+https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHIscJFONmephuyCBS19tZ9OM8k6CixDqPPhb2Ejik5D/Lp0iGteLWktVemT0gHJ1BIRdpAEe8+ZW0l/znEhhrZwD7YhALLyZ6MhofCzljfhz5pWFW3qeMiEuECpRC5eK1tGLZALQmOHsATHr5MNzdzcrGO/bqfs4mCiSpS+eesXvuyGxnTmqkd4KiWIYbHGLIkkauYlRNNQBCR/fpvhz5gZxQSUIgLCimYZbjorqV8xQxGRyufGEgp0FUXP8EU5TnZPadkweMteqt0tB4u4vmlXEqjfEFiYme2ctBeDWvMUk8HsUOreWPAEiYzmNjGtvKCG+8AVb6phgUjOMdA5S00rjsMLa1zwEzliWoG+lJh7hwOVrXg731Pc3BfbqH6BLRQXxgJwM7zF8EWRb7ARcFyDXsagjiFFXFyebaORxabFy1xHjI6nVi3fMVEqk3ZM+GEQLxpBatXMxV90xO8UqqxfQAD08o26yjJj+Fu0v5A13th2SruAqW30MYH0rRhsARS3yI2GP9i2VNYuEs3SXzFPDSoKk6+yzXErj9svSRWr7lSEO8HgkGQhoF96Rvs5HaGaktIbUisdFS2tbEIt3w5IVM0bFDBDx1OvvnqY7MH7IN+XvBha2DkK0MV65MypWVg91WaAJyLbzCUGnRBE8QJERhbIsqmo3YWCMgKmi/bw== baskar.arunachalam@gmail.com
