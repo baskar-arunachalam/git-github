@@ -1,0 +1,208 @@
+pipeline {
+    agent any
+    stages {
+        stage ('Initialize') {
+            steps {
+                echo  "Initializing the Code File"
+            }
+        }
+ 
+        stage ('Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+ 
+         stage ('Deploy') {
+            steps {
+                echo 'Deployed an Artifact'
+            }
+        }
+    }
+}pipeline {
+    agent any
+    stages {
+        stage ('Initialize') {
+            steps {
+                echo  "Initializing the Code File"
+            }
+        }
+ 
+        stage ('Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+ 
+         stage ('Deploy') {
+            steps {
+                echo 'Deployed an Artifact'
+            }
+        }
+    }
+}pipeline {
+    agent any
+    stages {
+        stage ('Initialize') {
+            steps {
+                echo  "Initializing the Code File"
+            }
+        }
+ 
+        stage ('Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+ 
+         stage ('Deploy') {
+            steps {
+                echo 'Deployed an Artifact'
+            }
+        }
+    }
+}
+
+visual code studio - code editor
+Documentation about jenkinfile
+
+Distributed build - Sec 12
+Digital Ocean 
+Section 21, Lecture 112
+Digital Ocean Link:
+https://m.do.co/c/98ed549bfab5
+
+Digital Ocean Promotion Links:
+https://www.retailmenot.com/view/digitalocean.com
+
+ssh root@ipaddress
+systemctl status jenkin.service
+--------------------------xxxxxxxxx-----------------
+
+Link to Register on Digital Ocean and Get $10 Dollor Discount.
+https://m.do.co/c/98ed549bfab5
+
+Install Jenkins on the Master Node
+wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
+ 
+echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list
+ 
+apt-get update
+ 
+apt-get install jenkins
+Note: 
+1. There is a bug in the latest Jenkins which is 2.95. (Dec 15th, 2017)
+
+If apt-get install jenkins failed to install and start Jenkins for you, try to install a previous version of jenkins by running apt-get install jenkins=2.67 
+
+2. If your Jenkins start is failing with Java Error then you need to Install Java First then Start Jenkins.
+
+Install Java on Cloud(Linux/Unix/Debian) Machine:
+sudo apt-get update
+
+Check Java Version:
+
+java -version
+
+If Output like this :
+
+The program 'java' can be found in the following packages:
+ * default-jre
+ * gcj-5-jre-headless
+ * openjdk-8-jre-headless
+ * gcj-4.8-jre-headless
+ * gcj-4.9-jre-headless
+ * openjdk-9-jre-headless
+
+
+Execute the Commands:
+
+sudo apt-get install default-jre
+sudo apt-get install default-jdk
+
+
+Again check for Java version:
+
+java -version
+
+
+
+Output would be like :
+
+openjdk version "1.8.0_171"
+OpenJDK Runtime Environment (build 1.8.0_171-8u171-b11-0ubuntu0.16.04.1-b11)
+OpenJDK 64-Bit Server VM (build 25.171-b11, mixed mode)
+
+
+Commands to Start/Stop/Status Check for Jenkins:
+
+
+Start Jenkins:
+systemctl start jenkins
+
+Check Status of Jenkins:
+systemctl status jenkins
+
+
+Stop Jenkins:
+systemctl stop jenkins
+
+Restart Jenkins:
+systemctl restart jenkins
+----------------------------
+Manage Nodes option in jenkin
+
+Text Direction : Install Jenkins Slave on Cloud
+Section 21, Lecture 116
+Install Java on Slave Machines:
+
+sudo apt-get updatesudo apt-get install default-jresudo apt-get install default-jdkjava -version
+
+
+Set-up Auto SSH Login:
+1. Log-in master Node and run command :
+
+sudo -iu jenkins
+
+2. Generate Public & Private RSA Key. Command:
+
+ssh-keygen -t rsa
+
+public key location : /var/lib/jenkins/.ssh/id_rsa.pub
+
+Private key location :  /var/lib/jenkins/.ssh/id_rsa
+
+
+3. Create .ssh directory on slave from master node
+
+ssh root@<slave_ip> mkdir -p .ssh
+
+4. Attach master public key with slave authorized directory
+cat .ssh/id_rsa.pub | ssh root@<slave_ip> 'cat >> .ssh/authorized_keys'
+
+Download Slave Agent Program on Slave Machine:
+1. Create bin directory.
+
+mkdir ~/bin
+2. Go to bin and download slave.jar from master
+
+cd bin wget http://<master_ip>:8080/jnlpJars/slave.jar
+
+Launch Command:
+ssh root@<slave_ip> java -jar /root/bin/slave.jar 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -24,6 +24,13 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 clip < ~/.ssh/id_rsa.pub
 # Copies the contents of the id_rsa.pub file to your clipboard
 
-Jenkins GitHub Plugin:
-https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHIscJFONmephuyCBS19tZ9OM8k6CixDqPPhb2Ejik5D/Lp0iGteLWktVemT0gHJ1BIRdpAEe8+ZW0l/znEhhrZwD7YhALLyZ6MhofCzljfhz5pWFW3qeMiEuECpRC5eK1tGLZALQmOHsATHr5MNzdzcrGO/bqfs4mCiSpS+eesXvuyGxnTmqkd4KiWIYbHGLIkkauYlRNNQBCR/fpvhz5gZxQSUIgLCimYZbjorqV8xQxGRyufGEgp0FUXP8EU5TnZPadkweMteqt0tB4u4vmlXEqjfEFiYme2ctBeDWvMUk8HsUOreWPAEiYzmNjGtvKCG+8AVb6phgUjOMdA5S00rjsMLa1zwEzliWoG+lJh7hwOVrXg731Pc3BfbqH6BLRQXxgJwM7zF8EWRb7ARcFyDXsagjiFFXFyebaORxabFy1xHjI6nVi3fMVEqk3ZM+GEQLxpBatXMxV90xO8UqqxfQAD08o26yjJj+Fu0v5A13th2SruAqW30MYH0rRhsARS3yI2GP9i2VNYuEs3SXzFPDSoKk6+yzXErj9svSRWr7lSEO8HgkGQhoF96Rvs5HaGaktIbUisdFS2tbEIt3w5IVM0bFDBDx1OvvnqY7MH7IN+XvBha2DkK0MV65MypWVg91WaAJyLbzCUGnRBE8QJERhbIsqmo3YWCMgKmi/bw== baskar.arunachalam@gmail.com
+
+Parallel build  - Lession 99
+go to post build action
+Build --> copy artifact from another project
+**/* war
+deploy war to container
+
+Deploy to production
+
+add build names comma separated
