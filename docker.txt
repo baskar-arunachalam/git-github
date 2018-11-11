@@ -1,0 +1,68 @@
+Text Direction: Docker on Windows
+Section 22, Lecture 124
+Download Docker CE for Windows 10 Pro/Ent
+
+https://store.docker.com/editions/community/docker-ce-desktop-windows
+
+
+Download Docker ToolSet for Windows Earlier Versions
+
+https://docs.docker.com/toolbox/overview/
+Docker for Windows FAQ
+
+https://docs.docker.com/docker-for-windows/faqs/
+
+
+
+Get Started with Docker for Windows
+
+https://docs.docker.com/docker-for-windows/
+
+Download Docker for Windows Server 2016
+
+https://store.docker.com/editions/enterprise/docker-ee-server-windows
+
+cloud machine
+1.  ubuntu - 2 GB 2 CORE MACHINE
+choose host name option
+
+ftp mobaxterm
+
+-------
+Steps to Register on DigitalOcean and get Promo Code
+First open this link and Sign Up to get your $10 credit.
+
+While filling your billing info, click on "Have a Promo Code?" at the bottom of the page.
+
+Enter any one of the below codes to get extra credit:
+
+CodeAnywhere10
+
+LOWENDBOX
+
+CODEANYWHERE
+
+DOPRODUCT15
+
+DO10
+
+ALLSSD10
+
+WP10
+
+DROPLET10
+
+BITNAMI
+
+DEPLOY10
+
+ACTIVATE10
+
+DONEWS
+
+FRANKFURT
+
+From 1st step you will get your first $10 credit and by using additional promo codes you can get up to $35 of total credits.
+
+Note: Some codes only give more credit on higher plans.
+
