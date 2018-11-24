@@ -34,7 +34,10 @@ gunzip file
 
 tar  -cvf file
 
+----------
 
+alias cls="clear"
+unalias -a  ==> to remove all 
 
 
 
