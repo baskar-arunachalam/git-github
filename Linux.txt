@@ -83,6 +83,9 @@ apt get-install packagename
 Session 6  Boot process date  24/11
 bios
 
+ls -alF /boot
+dmesg -T | more
+
 
 
 
