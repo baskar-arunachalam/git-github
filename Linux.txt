@@ -59,6 +59,74 @@ kill term
 fg pid =  to run in fore ground
 command &  - to run in back ground
 
+----
+
+History 
+
+~/.history
+~/.bash_history
+~/.histfile
+
+HISTSIZE  - Environment variable to set history size
+cd ~ ==>  change to home directory
+
+-------------
+yum search dropbox
+yum remove -y dropbox
+yum install -y dropbox.rpm
+
+rpm  -ql which lists all the file in the package
+
+apt get-install packagename
+
+------------------
+Session 6  Boot process date  24/11
+bios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
