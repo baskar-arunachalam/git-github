@@ -34,7 +34,45 @@ gunzip file
 
 tar  -cvf file
 
-----------
+tar zcf  dir.tgz  tpsdirectory
+tar ztvf tpsdirectory.tgz
+--------------------------
+Pattern matching
+
+[aeiou]  -  any one character from a,e,i,o,umask
+ca[nt]*   - matches can, cat, candy
+[!aeiou] -  not start with a,e,i,o,u
+[a-g]* -  start with any character from  a to g
+
+ls *[[:digit:]]  returns abc.mp3
+
+----------------------------
+cat ~/.bash_profile
+
+==
+process 
+jobs 
+top
+kill -9 pid
+kill 123 pid
+kill term
+fg pid =  to run in fore ground
+command &  - to run in back ground
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> db7db7100e446376d300ef0983497f33bf07e9cb
 
 alias cls="clear"
 unalias -a  ==> to remove all 
