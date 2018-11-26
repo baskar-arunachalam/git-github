@@ -86,6 +86,119 @@ bios
 ls -alF /boot
 dmesg -T | more
 
+--------------------
+system logging 
+logrotate.conf
+/etc/logrotate.conf ------- used to define log rotate  details conf file
+--------------------------------------------
+
+Disk management partition
+fdisk -l  to show the available partitionS
+
+mkfs -t type device
+mkfs -t ext/dev/sdc1
+
+In order to keep mount permanent make  an entry /etc/fstab
+lsblk -f
+blkid  command  shows uuid of the partition
+-----------------------------------------------
+LVM - Logical Volume manager
+---------------
+User Management
+
+All user informations are stored /etc/passwd file
+
+etc/shadow - contains informations about password\
+useradd -c "comment" -m -s /bin/bash baskar
+passwd baskar
+
+/usr/sbin/nologin apache -  won't allow users to login to the account
+/etc/skel - skelton copy the files .profile, .bashrc files are copied to user home
+userdel -r baskar  - To delete a user
+
+group details are stored in /etc/group file
+groupadd web -  Adding a group
+groupdel web - To delete a group
+------------------------------------------------------------
+Networking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
