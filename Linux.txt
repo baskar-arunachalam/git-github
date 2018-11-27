@@ -121,7 +121,14 @@ groupadd web -  Adding a group
 groupdel web - To delete a group
 ------------------------------------------------------------
 Networking
+TCP / IP 
 
+IP Address 
+Subnet mask
+Broadcast address 172.29.79.255 
+
+ip address
+ifconfig 
 
 
 
