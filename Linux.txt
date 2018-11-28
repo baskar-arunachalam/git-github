@@ -131,9 +131,12 @@ ip address
 ifconfig 
 
 
+/etc/nsswitch.conf
 
+DHCP - Dynamic hosts and ports
 
-
+cat /etc/services -  List down all the ports
+DHCP - Dynamic Host configuration protocol
 
 
 
