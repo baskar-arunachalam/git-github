@@ -138,6 +138,12 @@ DHCP - Dynamic hosts and ports
 cat /etc/services -  List down all the ports
 DHCP - Dynamic Host configuration protocol
 
+drwxrwxrwt   Sticky bit "t"  to tell the user that file is open to all to change
+-----------------------------------------------------------------------------
+Shell script
+To access all the items on the command line
+starting at the first parameter ($1), use the special variable $@.
+
 
 
 
