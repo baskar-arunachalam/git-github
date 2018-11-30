@@ -144,9 +144,15 @@ Shell script
 To access all the items on the command line
 starting at the first parameter ($1), use the special variable $@.
 
+ect/bash.bashrc
 
+apt-cache search apache 
+sudo apt-get install
+ps  -ef | grep apache 
 
-
+-----------------------------------------------------------------------
+[root][P@$$@R3DM!N3]
+grep -Ev '^#|^$' probook_backup.sh   -   print the file content without comment and empty lines
 
 
 
