@@ -1,0 +1,15 @@
+ITSM - IT Service Management 
+
+Incident management
+problem management
+change management
+Service Catalogue
+Service Level Management or SLA
+Application portfolio management
+Software Asset Management - Takes care of license, warrenty of software etc
+Fiancial management
+Release management 
+Agile devcelopment
+Customer Service Management - ways to communicate with customer
+
+http://developer.servicenow.com
