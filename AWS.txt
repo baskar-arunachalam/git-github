@@ -1,0 +1,25 @@
+Parabolic SAR 
+
+
+NIST 
+
+Service Models  - SaaS, IaaS, PaaS
+
+Essential characterstics
+
+On demand self service
+Broad nw access
+Resource pooling
+Rapid elasticity
+Measured Service
+
+Deployment Models
+
+private cloud
+community cloud
+public cloud
+Hybrid cloud
+
+https://aws.amazon.com 
+baskar.arunachalam@gmail.com
+Saroxxxx$24
