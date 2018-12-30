@@ -23,3 +23,34 @@ Hybrid cloud
 https://aws.amazon.com 
 baskar.arunachalam@gmail.com
 Saroxxxx$24
+
+Amazon S3
+Simple Storage Service - S3
+
+Lambda 
+IAM - Identify and Access Management
+Need to create a bucket policy 
+
+Elastic compute  cloud (EC2)
+IaaS  - EC2 is comes under IaaS category
+
+Use cases EC2
+Backend server
+Database server
+General purpose server
+Web Server
+
+a vm in EC2 is called  an instance (EC2 instance) and booting service and storage, operating systems are stored  in EBS - Elastic Block Storage.  EFS(elastic file system) is a NAS drive - Network attached storage. Auto scaling is another point in EC2
+
+Lambda - is  a serverless architure for doing computation within cloud
+
+Compute, Storage, Database, Networking and  Content Delivery, Developer tools,
+WAF -  Web application firewall
+
+
+
+
+
+
+
+
