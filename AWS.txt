@@ -27,6 +27,8 @@ Saroxxxx$24
 Amazon S3
 Simple Storage Service - S3
 
+AMI - Amazon Machine Image
+
 Lambda 
 IAM - Identify and Access Management
 Need to create a bucket policy 
@@ -48,9 +50,33 @@ Compute, Storage, Database, Networking and  Content Delivery, Developer tools,
 WAF -  Web application firewall
 
 
+AWS AR & VR 
+Augmented Reality and Virtual Reality
+
+AWS Certificates 
+1  Associate
+2  Professional
+3  Speciality - Networking and Big data
+
+Associate level we have 3 certification AWS Certified soluion architect, AWS Certified Developer  and AWS Certified SysAdmin
+
+In professional level - AWS Certified soluion architect Professional, AWS Certified DevOps Engineer professional, 
+http://levelupcloud.com 
 
 
+EC2 Notes:
 
+If you want an instance as a web server then port details should be added in Step 6 - Sec urity group configuration add tag
+
+
+my aws windows details
+ec2-13-127-101-24.ap-south-1.compute.amazonaws.com
+public ip address;  13.127.101.24
+
+Public DNS	ec2-13-127-101-24.ap-south-1.compute.amazonaws.com
+User name	Administrator
+Password	EfV2Er$.davr43PyXWCe-ydm=bPC(via
+EfV2Er$.davr43PyXWCe-ydm=bPC(via
 
 
 
