@@ -24,6 +24,8 @@ https://aws.amazon.com
 baskar.arunachalam@gmail.com
 Saroxxxx$24
 
+https://baskar24.signin.aws.amazon.com/console 
+
 Amazon S3
 Simple Storage Service - S3
 
@@ -76,7 +78,39 @@ public ip address;  13.127.101.24
 Public DNS	ec2-13-127-101-24.ap-south-1.compute.amazonaws.com
 User name	Administrator
 Password	EfV2Er$.davr43PyXWCe-ydm=bPC(via
-EfV2Er$.davr43PyXWCe-ydm=bPC(via
 
+AWS Associate Exam
+Andy Jasy 
 
+AWS this week - AWS updated  youtube channel
+IAM -  Identity access management
+PCI DSS Compliance - Credit card authentication framework
+MFA - Multi factor authentication  
+User, Group, Policies and Roles are 4 componenets of IAM
+
+S3 
+------
+http://S3-eu-west-1/amazonaws.com/
+cloudfront is amazon CDN network
+we cannot install databases in S3 (object based storage) whereas DB which is block based storage 
+Read after write consistancy for new objects placed in S3
+Eventual consistancy  for puts and Deletes (may not be available immediately.  There could be some amount of delay
+
+CDN: Content distribution network  or cloud front
+
+Edge 
+Origin wheere it  is deplo
+S3 bucket, EC2 
+Distribution - Name given to CDN which is collection of edge locations
+KMS - key Managed Service 
+SSE - Server side encryption 
+https://www.trek10.com/blog/aws-s3-permissions/
+http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingClientSideEncryption.html   
+
+AWS Storage Gateway:
+File Gateway - Uses NFS
+Volume Gateway - Uses Block storage iSCSI
+EBS Elastic Block store
+Volume Gateway - cached volume
+VG - Tapped GW
 

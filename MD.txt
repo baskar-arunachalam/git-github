@@ -1,0 +1,1 @@
+https://pmd.github.io/latest/pmd_userdocs_extending_writing_pmd_rules.html#get-a-development-environment-set-up-first
