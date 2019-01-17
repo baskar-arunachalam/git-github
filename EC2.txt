@@ -63,3 +63,22 @@ curl http://169.254.169.254/latest/user-data
 
 
 
+=======
+EC2 - Elastic compute cloud
+
+EFS - Elastic File system
+Supports NFSv4 protocol
+EFS block based storage not object storage 
+
+What is Lambda?
+
+Encapsulates the following :
+DataCenter
+Hardware
+assemply code / protocol
+HLL
+OS
+Application layer / API
+
+Polly - Speach to recognition service
+>>>>>>> d060c8a6f543396a2e7c6883bece62d0b6f1aaf5
