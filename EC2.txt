@@ -41,6 +41,13 @@ application  lb -  layer 7 telsa
 network lb  - TCP, layer 4
 classic lb 
 
+IAM
+
+COMMAND LINE
+CD .AWS
+
+curl http://169.254.169.254/latest/user-data
+
 
 
 
