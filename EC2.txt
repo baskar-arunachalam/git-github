@@ -48,6 +48,13 @@ CD .AWS
 
 curl http://169.254.169.254/latest/user-data
 
+Route 53
+--------------
+NS - Name server
+SOA - start of Authority record
+TTL - Time to live
+
+
 
 
 
