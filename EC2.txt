@@ -54,7 +54,16 @@ NS - Name server
 SOA - start of Authority record
 TTL - Time to live
 
+Databases
 
+OLTP, OLAP, Differences 
+What is Elasticache?
+MemCache, Redis 
+RedShift - Amazon OLAP 
+
+Auorara:
+
+MySQL database engine for performance improvement and cost effective solutions
 
 
 
