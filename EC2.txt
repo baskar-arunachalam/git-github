@@ -47,6 +47,11 @@ COMMAND LINE
 CD .AWS
 
 curl http://169.254.169.254/latest/user-data
+==============================================================================================
+Route  53
+
+Simple routing policy - only one record  and if more records are added returns in random order
+weighted routing
 
 
 
