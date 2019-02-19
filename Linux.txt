@@ -154,6 +154,12 @@ ps  -ef | grep apache
 [root][P@$$@R3DM!N3]
 grep -Ev '^#|^$' probook_backup.sh   -   print the file content without comment and empty lines
 
+cd $home
+
+----------------------------
+To know the ports and applications
+netstat -tlnp
+i
 
 
 

@@ -1,0 +1,27 @@
+app service ?
+app service plan 
+subscription
+VM vs App service plan
+scale up and scale out
+cloud service ?
+Monitoring, performance monitoring
+Remote debug in production server
+
+NP67VZEKZ
+TCX366JX6
+
+With regards
+
+cloud service has control over the environment
+Web roles - cloud service
+Web apps - App service
+
+Storage in AZure
+Blob - for heavy storages 500 TB, any TB
+Table 
+Queue
+files - Multiple VMS can share the data if files are copid
+
+Account -> Container -> Blob
+Blob  -> page blob(200 gb),blob (1 TB)
+Table - Linq queries, for no sql tables 
