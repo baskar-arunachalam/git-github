@@ -1,9 +1,12 @@
 git -- version
 git config --global user.name "Baskar,Arunachalam"
 git config --global user.email "baskar.arunachalam@gmail.com"
-git config --global list
+git config --list
+git help
+git help add
+git help rebase
 
-git init  - to initialize
+git init  - to initialize a directory for git repository
 ls -la - to view hidden files
 git status
 git add . -  to add files
