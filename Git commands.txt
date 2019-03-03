@@ -1,7 +1,9 @@
+verso2
 git -- version
 git config --global user.name "Baskar,Arunachalam"
 git config --global user.email "baskar.arunachalam@gmail.com"
 git config --global list
+cat `/.gitconfig
 
 git init  - to initialize
 ls -la - to view hidden files

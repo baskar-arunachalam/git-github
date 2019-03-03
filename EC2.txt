@@ -37,8 +37,8 @@ Instance types - root device of the instance s launched instance store of Aazon 
 EBS type- From Amazon EBS snaphot
 
 Load balancers
-application  lb -  layer 7 telsa
-network lb  - TCP, layer 4
+application  lb -  layer 7 for intelligent routing
+network lb  - TCP, layer 4 - for best performance
 classic lb 
 
 IAM
@@ -70,10 +70,19 @@ Auorara:
 
 MySQL database engine for performance improvement and cost effective solutions
 
+VPC - Virtual private cloud
+Security Group is stateful and network control list stateless
+is it possible to create custom rules in pmd -  google search
+Bastion server - Used to connect private instance via public vpc connection, mainly for SSH
 
+API Gateway 
+----------------
 
+Origin policy -  second request should be from first request
+Cross origin resource sharing
 
-
+Kinesis  - Streaming
+Kinesis Firehose
 
 
 
