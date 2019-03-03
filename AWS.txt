@@ -5,8 +5,6 @@ NIST
 
 Service Models  - SaaS, IaaS, PaaS
 
-Essential characterstics
-
 On demand self service
 Broad nw access
 Resource pooling
