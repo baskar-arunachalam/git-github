@@ -90,6 +90,8 @@ User, Group, Policies and Roles are 4 componenets of IAM
 
 S3 
 ------
+S3 bucket name should not have  upper case and special characters.  Bucket is universal not specific to any available zone.  Access Control list controls individual element in the bucket whereas bucket policy is for entire bucket.
+
 http://S3-eu-west-1/amazonaws.com/$bucketName
 s3 Storage and classes
 S3 Standard
@@ -123,3 +125,11 @@ VG - Stored Volume
 GW Virtual Tape library -  VTL
 
 STS - Security Token Service
+=======
+What is the durability on RRS?
+What is the durability on S3?
+What is the availability on S3?
+S3 has eventual consistency for which HTTP Methods?
+Lecture 12 S3 - 101
+
+

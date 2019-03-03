@@ -2,10 +2,16 @@ verso2
 git -- version
 git config --global user.name "Baskar,Arunachalam"
 git config --global user.email "baskar.arunachalam@gmail.com"
+
 git config --global list
 cat `/.gitconfig
-
-git init  - to initialize
+=======
+git config --list
+git help
+git help add
+git help rebase
+    
+git init  - to initialize a directory for git repository
 ls -la - to view hidden files
 git status
 git add . -  to add files
@@ -34,7 +40,7 @@ git merge develop
 --
 git reset HEAD $FILE_NAME  - To revert back
 git reset HEAD~ - To revert last commit
-<<<<<<< HEAD
+git checkout -- $filename$ to remove local changes
 ---------
 git mv filename1 filename2 
 
