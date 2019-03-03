@@ -22,7 +22,7 @@ git log --author="Baskar,Arunachalam"
 git config --global core.editor "\"C:\Program Files (x86)\Notepad++\notepad++.exe\""
 git diff
 git diff --staged
-git -rm $filename
+git rm $filename
 
 --------------  GitHub -----------------------
 git init
