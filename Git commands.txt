@@ -149,3 +149,5 @@ git reset --hard comitid
 git reflog - brings files from recycle bin
 
 git clean -df
+
+added comments to check
